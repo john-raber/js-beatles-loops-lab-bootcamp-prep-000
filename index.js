@@ -7,9 +7,9 @@ function theBeatlesPlay(marray, iarray) {
 }
 
 function johnLennonFacts(array) {
-  let x = 0;
+  let x = -1;
   while (x < array.length) {
-    array[x] = array[x] + '!!!';
+    array[x++] ++ '!!!';
   }
   return array;
 }
